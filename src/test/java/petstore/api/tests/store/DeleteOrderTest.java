@@ -22,7 +22,7 @@ public class DeleteOrderTest extends BaseTest {
     public void deleteOrder() {
         Order order = TestDataGenerator.generateNewOrder();
         storeSteps.postOrderOk(order)
-            .deleteOrderById("1")
+            .deleteOrderById(order.getId().toString())
             .getNotFoundOrderById(order.getId().toString());
     }
 }

@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 26 23:23:20 CET 2025","Sun Jan 26 23:23:20 CET 2025","88","","GET /store/inventory test cases","","petstore.api.tests.store.GetInventoryTest","verifyInventoryQuantitiesAfterOrder","Verify inventory quantities are updated after order",""
+"passed","Sun Jan 26 23:23:20 CET 2025","Sun Jan 26 23:23:20 CET 2025","6","","GET /store/inventory test cases","","petstore.api.tests.store.GetInventoryTest","getInventoryTest","GET /inventory - OK",""
+"passed","Sun Jan 26 23:23:20 CET 2025","Sun Jan 26 23:23:20 CET 2025","14","","GET /store/order/{orderId} test cases","","petstore.api.tests.store.GetOrderTest","getOrderTest","GET /order/{orderId} request with valid id - OK",""
+"passed","Sun Jan 26 23:23:20 CET 2025","Sun Jan 26 23:23:20 CET 2025","7","","POST /store/order test cases","","petstore.api.tests.store.PostOrderTest","postOrderBadRequestTest","POST /order with incorrect data - BAD REQUEST",""
+"passed","Sun Jan 26 23:23:20 CET 2025","Sun Jan 26 23:23:20 CET 2025","6","","GET /store/order/{orderId} test cases","","petstore.api.tests.store.GetOrderTest","getNotFoundOrderTest","GET /order/{orderId} request with invalid id - Not Found",""
+"passed","Sun Jan 26 23:23:20 CET 2025","Sun Jan 26 23:23:20 CET 2025","14","","POST /store/order test cases","","petstore.api.tests.store.PostOrderTest","postOrderSuccessfullyTest","POST /order - OK",""
+"passed","Sun Jan 26 23:23:19 CET 2025","Sun Jan 26 23:23:20 CET 2025","723","","DELETE /store/order/{orderId} test cases","","petstore.api.tests.store.DeleteOrderTest","deleteOrder","DELETE /order/{orderId} - OK",""
