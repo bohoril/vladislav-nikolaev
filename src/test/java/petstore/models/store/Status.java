@@ -1,4 +1,4 @@
-package petstore.api.models.store;
+package petstore.models.store;
 
 public enum Status {
     placed, approved, delivered

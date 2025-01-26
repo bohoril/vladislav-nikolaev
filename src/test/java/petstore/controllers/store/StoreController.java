@@ -1,4 +1,4 @@
-package petstore.api.controllers.store;
+package petstore.controllers.store;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;

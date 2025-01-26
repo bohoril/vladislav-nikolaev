@@ -1,10 +1,10 @@
-package petstore.api.steps.store;
+package petstore.steps.store;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
-import petstore.api.controllers.store.StoreController;
-import petstore.api.models.store.Order;
+import petstore.controllers.store.StoreController;
+import petstore.models.store.Order;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;

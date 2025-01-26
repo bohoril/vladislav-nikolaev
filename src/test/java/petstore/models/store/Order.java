@@ -1,4 +1,4 @@
-package petstore.api.models.store;
+package petstore.models.store;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

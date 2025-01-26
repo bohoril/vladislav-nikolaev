@@ -1,7 +1,7 @@
-package petstore.api.utils;
+package petstore.utils;
 
-import petstore.api.models.store.Order;
-import petstore.api.models.store.Status;
+import petstore.models.store.Order;
+import petstore.models.store.Status;
 
 import java.util.Date;
 import java.util.Random;

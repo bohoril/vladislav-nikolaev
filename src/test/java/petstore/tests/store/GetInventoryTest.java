@@ -1,15 +1,15 @@
-package petstore.api.tests.store;
+package petstore.tests.store;
 
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import petstore.api.models.store.Inventory;
-import petstore.api.models.store.Order;
-import petstore.api.steps.store.StoreSteps;
-import petstore.api.tests.BaseTest;
-import petstore.api.utils.TestDataGenerator;
+import petstore.models.store.Inventory;
+import petstore.models.store.Order;
+import petstore.steps.store.StoreSteps;
+import petstore.tests.BaseTest;
+import petstore.utils.TestDataGenerator;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
