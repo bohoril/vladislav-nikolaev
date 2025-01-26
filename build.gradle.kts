@@ -21,6 +21,7 @@ val allureVersion = "2.29.0"
 val jacksonVersion = "2.18.2"
 val configVersion = "1.4.3"
 val lombokVersion = "1.18.36"
+val slf4jVersion = "2.0.16"
 
 dependencies {
     implementation("com.typesafe:config:${configVersion}")
@@ -32,6 +33,7 @@ dependencies {
     testImplementation("io.rest-assured:rest-assured:${restAssuredVersion}")
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    testImplementation("org.slf4j:slf4j-simple:${slf4jVersion}")
     testImplementation("io.qameta.allure:allure-junit5:${allureVersion}")
 
     testCompileOnly("org.projectlombok:lombok:${lombokVersion}")
@@ -40,8 +42,7 @@ dependencies {
 
 allure {
     version = allureVersion
-    adapter.aspectjWeaver = false
-    adapter.autoconfigure = true
+    adapter.aspectjWeaver = true
 }
 
 tasks.test {
