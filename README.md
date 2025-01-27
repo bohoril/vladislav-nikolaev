@@ -16,9 +16,11 @@ To view the exploratory testing report, open the file `monefy_exploratory_testin
 
 **How to run tests:**
 
+Run the PetStore service locally using the following guide: https://github.com/swagger-api/swagger-petstore
+
 To run tests use the command:
 
-`./gradlew clean test`
+`./gradlew clean :api-tests:test`
 
 To download Allure report use the command:
 
@@ -45,3 +47,14 @@ I am using `RestAssured` library to send requests and validate responses. `Lombo
 I have created `StoreController` to simplify interaction with API and increase readability. I am using DTO design patter to create models for store and use them for serializing/deserializing to/from JSON.
 
 I have added `Allure` steps to improve report readability and easy debugging.
+
+### Mobile test automation framework for Monefy application
+
+**Framework stack:**
+* Java
+* Gradle
+* TestNG
+* Appium
+
+**How to run tests:**
+
