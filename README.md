@@ -16,7 +16,7 @@ To view the exploratory testing report, open the file `monefy_exploratory_testin
 
 **How to run tests:**
 
-Run the PetStore service locally using the following guide: https://github.com/swagger-api/swagger-petstore
+Run the PetStore service locally using the following guide (I did it with Maven and jetty): https://github.com/swagger-api/swagger-petstore
 
 To run tests use the command:
 
@@ -58,3 +58,19 @@ I have added `Allure` steps to improve report readability and easy debugging.
 
 **How to run tests:**
 
+Download Android Studio: https://developer.android.com/studio
+
+Set up Android Emulator (Choose Pixel 4 API 31): https://developer.android.com/studio/run/emulator
+
+Run android emulator `Pixel 4 API 31`
+
+To run tests use the command:
+
+`./gradlew clean :mobile-tests:test`
+
+**Approach**
+The framework is designed to cover the main functionality of the Monefy mobile application.
+
+I am using `Appium` library to interact with the mobile application. `TestNG` to run tests.
+
+I have created `BaseTest` to simplify interaction with Appium and increase readability. I am using Page Object design pattern to create models for mobile screens and use them for interaction with the application.
