@@ -1,6 +1,7 @@
 Project contains:
 * Exploratory testing report for Monefy mobile application
 * API test automation framework for Swagger PetStore sample
+* Mobile test automation framework for Monefy application
 
 ### Exploratory testing report
 To view the exploratory testing report, open the file `monefy_exploratory_testing.md` in the root of the project.
