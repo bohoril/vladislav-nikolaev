@@ -32,7 +32,7 @@ To generate Allure report use the command:
 
 To open existing Allure report `allure-report/allureReport` please install Allure on your PC and use the command:
 
-`allure open allure-report/allureReport`
+`allure open api-tests/allure-report/allureReport`
 
 For Intellij IDEA, it is required to install the `Lombok` plugin:
 
@@ -67,6 +67,10 @@ Run android emulator `Pixel 4 API 31`
 To run tests use the command:
 
 `./gradlew clean :mobile-tests:test`
+
+To open the existing TestNG report use the command:
+
+`open mobile-tests/testng-report/test/index.html`
 
 **Approach**
 The framework is designed to cover the main functionality of the Monefy mobile application.
