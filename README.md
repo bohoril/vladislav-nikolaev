@@ -59,9 +59,21 @@ I have added `Allure` steps to improve report readability and easy debugging.
 
 **How to run tests:**
 
+Install Node: https://nodejs.org/en/download
+
+Install Appium using the command:
+
+`npm install -g appium`
+
+Install UiAutomator2 driver using the command:
+
+`appium driver install uiautomator2`
+
 Download Android Studio: https://developer.android.com/studio
 
 Set up Android Emulator (Choose Pixel 4 API 31): https://developer.android.com/studio/run/emulator
+
+Ensure that the environment variables `JAVA_HOME` and `ANDROID_HOME` are set up correctly.
 
 Run android emulator `Pixel 4 API 31`
 
