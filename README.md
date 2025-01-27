@@ -1,4 +1,5 @@
-Project contains:
+### Project contains:
+
 * Exploratory testing report for Monefy mobile application
 * API test automation framework for Swagger PetStore sample
 * Mobile test automation framework for Monefy application
@@ -7,7 +8,9 @@ Project contains:
 To view the exploratory testing report, open the file `monefy_exploratory_testing.md` in the root of the project.
 
 ### API test automation framework for PetStore service
-**Framework stack:**
+
+#### Framework stack:
+
 * Java
 * Gradle
 * JUnit5
@@ -15,7 +18,7 @@ To view the exploratory testing report, open the file `monefy_exploratory_testin
 * Lombok
 * Allure
 
-**How to run tests:**
+#### How to run tests:
 
 Run the PetStore service locally using the following guide (I did it with Maven and jetty): https://github.com/swagger-api/swagger-petstore
 
@@ -31,7 +34,7 @@ To generate Allure report use the command:
 
 `./gradlew allureServe`
 
-To open existing Allure report `allure-report/allureReport` please install Allure on your PC and use the command:
+**To open existing Allure report `allure-report/allureReport` please install Allure on your PC and use the command:**
 
 `allure open api-tests/allure-report/allureReport`
 
@@ -39,7 +42,7 @@ For Intellij IDEA, it is required to install the `Lombok` plugin:
 
 https://plugins.jetbrains.com/plugin/6317-lombok
 
-**Approach**
+#### Approach
 
 The framework is designed to cover the main functionality of the /store endpoints of PetStore service.
 
@@ -51,13 +54,14 @@ I have added `Allure` steps to improve report readability and easy debugging.
 
 ### Mobile test automation framework for Monefy application
 
-**Framework stack:**
+#### Framework stack:
+
 * Java
 * Gradle
 * TestNG
 * Appium
 
-**How to run tests:**
+#### How to run tests:
 
 Install Node: https://nodejs.org/en/download
 
@@ -81,11 +85,12 @@ To run tests use the command:
 
 `./gradlew clean :mobile-tests:test`
 
-To open the existing TestNG report use the command:
+**To open the existing TestNG report use the command:**
 
 `open mobile-tests/testng-report/test/index.html`
 
-**Approach**
+#### Approach
+
 The framework is designed to cover the main functionality of the Monefy mobile application.
 
 I am using `Appium` library to interact with the mobile application. `TestNG` to run tests.
